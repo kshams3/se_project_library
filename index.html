@@ -62,6 +62,7 @@
           <p class="staff__subtitle">That our readers love</p>
           <!-- Wrap those cards! -->
           <!-- The ul tag (unordered list) is used here as it is a collection of cards for which the order doesn't really matter. -->
+          <ul class="staff__cards"></ul>
           <ul>
             <li class="card">
               <div class="card__content">
@@ -293,11 +294,53 @@
               the American Geophysical Union.
             </p>
           </div>
-          <!-- <div class="about__circle"></div> -->
+          <div class="about__circle"></div>
         </section>
       </main>
       <footer class="footer" id="footer">
         <!-- The time to mark up the footer has come, you can do it 💪 -->
+        <div class="footer_columns">
+          <div class="footer_column">
+            <img
+              class="footer__logo"
+              src="images/logo_white.png"
+              alt="Practicum Logo"
+            />
+          </div>
+          <div class="footer_column footer__column_hours">
+            <h2 class="footer__heading">Hours</h2>
+            <ul class="footer__list">
+              <li class="footer__list-item">Weekdays: 9am - 8pm</li>
+              <li class="footer__list-item">Weekends: 10am - 6pm</li>
+            </ul>
+          </div>
+          <div class="footer_column footer__column_social">
+            <h2 class="footer__heading">Social Media</h2>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a class="footer__column-link" href="#">
+                  <img
+                    class="footer__social-icon"
+                    src="images/facebook_white.svg"
+                    alt="Facebook Logo"
+                  />
+                  Facebook
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__column-link" href="#">
+                  <img
+                    class="footer__social-icon"
+                    src="images/Instagram_white.svg"
+                    alt="Instagram Logo"
+                  />
+                  Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__column-copyrights">&copy; 2022 Kayvon Shams</p>
       </footer>
     </div>
   </body>
