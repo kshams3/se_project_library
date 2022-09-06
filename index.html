@@ -9,7 +9,6 @@
   </head>
 
   <body>
-    <!-- Wrap the entire page content in a new div with the page class. Remember to add the closing tag -->
     <div class="page">
       <header class="header">
         <nav class="nav">
@@ -18,7 +17,6 @@
             alt="Practicum Library Logo"
             class="logo"
           />
-          <!-- Putting navigation links in a list is supposed to be the best practice of writing the semantic code since it allows screen readers to pause between each link instead of reading all the links as a sentence. -->
           <ul class="nav__links">
             <li>
               <a class="nav__link" href="#staff">Staff picks</a>
@@ -60,8 +58,7 @@
         <section class="staff" id="staff">
           <h2 class="staff__title">Staff picks</h2>
           <p class="staff__subtitle">That our readers love</p>
-          <!-- Wrap those cards! -->
-          <!-- The ul tag (unordered list) is used here as it is a collection of cards for which the order doesn't really matter. -->
+
           <ul class="staff__cards">
             <li class="card">
               <div class="card__content">
@@ -161,7 +158,7 @@
             </p>
             <a href="#" class="events__more">More events &rarr;</a>
           </div>
-          <!-- Start creating the composition here -->
+
           <div class="events__cover">
             <img
               src="./images/cafe.png"
@@ -169,46 +166,46 @@
               class="events__image"
             />
 
-            <div class="person person_name_feynman">
-              <p class="person__caption">Joan Feynman</p>
+            <figure class="person person_name_feynman">
               <img
                 src="./images/person_feynman.png"
                 alt="picture of Feynman"
                 class="person__image person__image_size_l"
               />
-            </div>
-            <div class="person person_name_burbidge">
-              <p class="person__caption">Margaret Burbidge</p>
+              <figcaption class="person__caption">Joan Feynman</figcaption>
+            </figure>
+            <figure class="person person_name_burbidge">
               <img
                 src="./images/person_burbidge.png"
                 alt="picture of Burbidge"
                 class="person__image person__image_size_m"
               />
-            </div>
-            <div class="person person_name_cannon">
-              <p class="person__caption">Annie Jump Cannon</p>
+              <figcaption class="person__caption">Margaret Burbidge</figcaption>
+            </figure>
+            <figure class="person person_name_cannon">
               <img
                 src="./images/person_cannon.png"
                 alt="picture of Cannon"
                 class="person__image person__image_size_m"
               />
-            </div>
-            <div class="person person_name_mitchell">
-              <p class="person__caption">Maria Mitchell</p>
+              <figcaption class="person__caption">Annie Jump Cannon</figcaption>
+            </figure>
+            <figure class="person person_name_mitchell">
               <img
                 src="./images/person_mitchell.png"
                 alt="picture of Mitchell"
                 class="person__image person__image_size_s"
               />
-            </div>
-            <div class="person person_name_tarter">
-              <p class="person__caption">Jill Tarter</p>
+              <figcaption class="person__caption">Maria Mitchell</figcaption>
+            </figure>
+            <figure class="person person_name_tarter">
               <img
                 src="./images/person_tarter.png"
                 alt="picture of Tarter"
                 class="person__image person__image_size_m"
               />
-            </div>
+              <figcaption class="person__caption">Jill Tarter</figcaption>
+            </figure>
           </div>
         </section>
 
@@ -292,23 +289,22 @@
         </section>
       </main>
       <footer class="footer" id="footer">
-        <!-- The time to mark up the footer has come, you can do it 💪 -->
         <div class="footer__columns">
-          <div class="footer_column">
+          <div class="footer__columns">
             <img
               class="footer__logo"
               src="images/logo_white.png"
               alt="Practicum Logo"
             />
           </div>
-          <div class="footer_column footer__column_content_hours">
+          <div class="footer__columns footer__column_content_hours">
             <h2 class="footer__heading">Hours</h2>
             <ul class="footer__list">
               <li class="footer__list-item">Weekdays: 9am - 8pm</li>
               <li class="footer__list-item">Weekends: 10am - 6pm</li>
             </ul>
           </div>
-          <div class="footer_column footer__column_content_social">
+          <div class="footer__columns footer__column_content_social">
             <h2 class="footer__heading">Social Media</h2>
             <ul class="footer__list">
               <li class="footer__list-item">
@@ -334,7 +330,7 @@
             </ul>
           </div>
         </div>
-        <p class="footer__column-copyrights">&copy; 2022 Kayvon Shams</p>
+        <p class="footer__copyrights">&copy; 2022 Kayvon Shams</p>
       </footer>
     </div>
   </body>
