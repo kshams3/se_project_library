@@ -123,7 +123,6 @@
   max-width:760px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 0;
   margin-bottom: 0;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -261,6 +260,7 @@
   align-items: center;
   flex-direction: column;
   gap: 10px; 
+  margin: 0;
 }
 
 .person_name_feynman {
@@ -314,6 +314,7 @@
   padding-top: 100px;
   padding-bottom: 140px;
   background-color: #f2f2f2;
+  gap: hebrew
 }
 
 .membership__title {
@@ -331,11 +332,12 @@
   margin: 100px 0 0;
   display: flex;
   justify-content: center;
+  gap: 0;
 }
 
 .step {
   flex-basis: 220px; 
-  gap;
+  gap: 40px;
 }
 
 .step__title {
@@ -372,7 +374,6 @@
   line-height: 30px;
   font-weight: 500;
   z-index: 1;
-  max-width: 120px;
 }
 
 .about__content {
@@ -464,5 +465,4 @@
 
 .footer__copyrights {
   margin:108px 0 0;
-  margin-bottom: 0;
 }
