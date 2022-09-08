@@ -130,6 +130,7 @@
   display: flex;
   list-style: none;
   padding-left: 0;
+  margin-top: 68px;
 }
 .card {
   background-color: #fff;
@@ -332,12 +333,11 @@
   margin: 100px 0 0;
   display: flex;
   justify-content: center;
-  gap: 0;
+  gap: 40px;
 }
 
 .step {
   flex-basis: 220px; 
-  gap: 40px;
 }
 
 .step__title {
@@ -390,6 +390,10 @@
   margin-bottom: 32px;
 }
 
+.about__paragraph:last-of-type {
+  margin-bottom: 0;
+}
+
 .about__circle {
   background-color: #2f80ed;
   width: 495px;
@@ -405,11 +409,12 @@
   box-sizing: border-box;
   background-color: #1f1f1f;
   color: #fff;
-  padding: 57px 102px 60px 80px;
+  padding: 60px 102px 60px 80px;
 }
 
 .footer__columns {
   display: flex;
+  min-height: 224px;
 }
 
 .footer__column_content_hours {
@@ -464,5 +469,5 @@
 }
 
 .footer__copyrights {
-  margin:108px 0 0;
+  margin: 0 0 0;
 }
